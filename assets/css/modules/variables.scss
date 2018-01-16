@@ -1,0 +1,39 @@
+// Colors
+
+$colors: (
+);
+
+@each $color_name,$color in $colors{
+  .#{$color-name}{
+    background-color: $color !important;
+  }
+
+  .#{$color-name}-text{
+    color: $color !important;
+  }
+
+  .#{$color_name}-text-hover{
+    transition:all 0.4s;
+    &:hover{
+      color: $color !important;
+    }
+  }
+
+  a.#{$color-name}:hover{
+      background-color: darken($color,15) !important;
+  }
+
+}
+
+//fonts
+$small: 16px;
+$medium: 20px;
+$big: 48px;
+
+$large-padding: 10px 15px;
+$big-padding: 20px 30px;
+
+$default-margin-top: 30px;
+$big-margin-top: 90px;
+
+$border-radius: 4px;

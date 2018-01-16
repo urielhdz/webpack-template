@@ -1,0 +1,30 @@
+@mixin caligraphy{
+  font-family: 'Dancing Script', cursive;
+}
+
+@mixin full{
+  width: 100%;
+  height: 100%;
+}
+
+@mixin text-center{
+  text-align: center;
+}
+
+@mixin absolute-cover{
+  @include full;
+  position: absolute;
+  left:0px;
+  top:0px;
+}
+
+@mixin center-vertical-horizontal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin cover{
+  background-size: cover;
+  background-position: center;
+}

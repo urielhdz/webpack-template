@@ -1,0 +1,21 @@
+@import './modules/variables.scss';
+@import './modules/mixins.scss';
+@import './modules/common.scss';
+@import './modules/scroll.scss';
+
+body{
+  margin:0px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+a{
+  color: inherit;
+  &:visited{
+    color:inherit;
+  }
+}
+
+img{
+  max-width: 100%;
+}
