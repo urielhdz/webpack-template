@@ -1,6 +1,6 @@
-# WebPack Template
+# WebPack Template
 
-## What
+## What
 
 This is a personal template with WebPack and ServiceWorker's configured. WebPack is configured to pre process SASS.
 
@@ -18,18 +18,18 @@ I personally use npm-static (https://www.npmjs.com/package/node-static), with no
 static -H '{"Cache-Control": "no-cache, must-revalidate"}'
 ```
 
-## Contribute
+## Contribute
 
 If you want to change o modify the WebPack configuration, feel free to send a pull request for the project, I'll be happy to integrate your changes.
 
 
 ====== SPANISH =====
 
-## De qué se trata esto
+## De qué se trata esto
 
 Este es un template personal con WebPack y ServiceWorker's pre configurados. WebPack está configurado para pre procesar SASS y convertirlo en CSS.
 
-## Why
+## Por qué usarlo
 
 El objetivo de este template es que sirve como punto de inicio para projectos que usen WebPack, SASS y ServiceWorker's para acceso sin internet.
 
